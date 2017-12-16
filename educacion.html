@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Evaluación Final - Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="250" height="75">
+        <image xlink:href="svg/logo.svg" width="250" height="75"/>
+      </svg>
+      <p><h1>Hoja de Vida</h1></p>
+      <p><h2>Carlos Peña</h2></p>
+      <p><h3>Caracas - 04 de abril de 1977</h3></p>
+    </header>
+    <nav>
+      <p><a href="index.html">Inicio | </a><a href="educacion.html">Educación | </a><a href="experiencia.html">Experiencia</a></p>
+    </nav>
+    <section>
+      <p><h2>Educación</h2></p>
+      <table border="1" cellpadding="2" cellspacing="2">
+        <tr>
+          <th align="center">Año</th>
+          <th width="150px" align="center">Institución</th>
+          <th align="center">Lugar</th>
+          <th align="center">¿Culminó?</th>
+        </tr>
+        <tr>
+          <td align="center">2009</td>
+          <td align="center">Univ Ejemplo</td>
+          <td align="center">Caracas</td>
+          <td align="center">Sí</td>
+        </tr>
+        <tr>
+          <td align="center">2014</td>
+          <td align="center">Univ Ejemplo 2</td>
+          <td align="center">Maracay</td>
+          <td align="center">No</td>
+        </tr>
+      </table>
+      <br>
+      <hr>
+      <p><h2>Agregar Estudios</h2></p>
+      <form name="agregarestudios">
+        <p>
+          <strong>Año: </strong>
+          <select name="anio">
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+          </select>
+        </p>
+        <p>
+          <strong>Institución: </strong>
+          <input type="text" name="institucion" placeholder="Indique la institución">
+        </p>
+        <p>
+          <strong>Lugar: </strong>
+          <textarea name="lugar" rows="3" cols="40" placeholder="Indique el lugar"></textarea>
+        </p>
+        <p>
+          <strong>¿Culminó?</strong>
+          <input type="radio" name="culmino" value="si">Sí
+          <input type="radio" name="culmino" value="no">No
+        </p>
+        <p>
+          <input type="submit" name="enviar" value="Enviar">
+        </p>
+      </form>
+    </section>
+    <footer>
+      <p><h3>Infrmación de contacto:</h3></p>
+      <ul>
+        <li><strong>email:</strong> cepa@test.com</li>
+        <li><strong>Teléfono:</strong> 706-8524141</li>
+        <li><strong>LinkedIn:</strong> @cepa44</li>
+      </ul>
+    </footer>
+  </body>
+</html>
